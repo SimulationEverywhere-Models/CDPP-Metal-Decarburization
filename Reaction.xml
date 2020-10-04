@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ConfigFramework>
+<Doc> This model simulates a Reaction process between Carbon and Oxygen using Cell-Devs. It uses Lopez linux version with multiple
+neighbor ports (value). </Doc>
+<Files>
+<File ftype="ma">Reaction.ma</File> 
+<File ftype="inc">macros.inc</File>
+<File ftype="stvalues">reaction.stvalues</File>
+</Files>
+<Options>
+<TimeOp>00:00:10:000</TimeOp>
+<OnlyYMsgOP>true</OnlyYMsgOP> 
+<ParsingOp>false</ParsingOp>
+</Options>
+<DrawLog> 
+<CoupledModel>Reaction</CoupledModel> 
+<Width>3</Width> 
+<Precision>0</Precision> 
+<NotPrintZero>true</NotPrintZero>
+<TimeInterval>00:00:00:100</TimeInterval>
+</DrawLog>
+</ConfigFramework>
